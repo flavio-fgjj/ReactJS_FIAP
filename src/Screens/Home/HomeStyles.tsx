@@ -14,12 +14,11 @@ export const Title = styled(Typography)`
   }
 `;
 
-export const CustomLink = styled(Link)`
-  && {
-    text-align: center;
-    font-size: 16vm;
-    color: ${Colors.PrimaryMedium};
-  }
+export const CustomLink = styled.div`
+  text-align: center;
+  font-size: 16vm;
+  color: ${Colors.PrimaryMedium};
+  cursor: pointer;
 `;
 
 type CustomBoxType = {
