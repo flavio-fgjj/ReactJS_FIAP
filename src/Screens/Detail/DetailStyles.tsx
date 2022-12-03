@@ -7,6 +7,7 @@ import Grid from "@mui/material/Grid";
 export const MainGrid = styled(Grid)`
   && {
     text-align: center;
+    padding: 20px;
   }
 `;
 
@@ -31,7 +32,7 @@ export const ButtonMaxSize = styled(Button)`
 `;
 
 export const StyledMap = styled.div`
-  margin-top: 40px;
+  margin: 40px 20px 0 0;
   width: "100%";
   height: 400px;
 `;

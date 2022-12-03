@@ -6,6 +6,7 @@ import Colors from "../../Utils/Common/Colors";
 export const MainGrid = styled(Grid)`
   && {
     text-align: center;
+    margin-top: 40px;
   }
 `;
 
