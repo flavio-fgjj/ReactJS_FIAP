@@ -7,6 +7,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import MuiThemes from "./Utils/Common/MuiThemes";
 import { BrowserRouter } from "react-router-dom";
 import ManageRoutes from "./ManageRoutes/ManageRoutes";
+import UserInfoContextProvider from './Store/UserInfo/UserInfoProvider';
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
@@ -15,7 +16,9 @@ root.render(
   <React.StrictMode>
     <BrowserRouter>
       <MuiThemes>
+      <UserInfoContextProvider>
         <ManageRoutes />
+      </UserInfoContextProvider>
       </MuiThemes>
     </BrowserRouter>
   </React.StrictMode>

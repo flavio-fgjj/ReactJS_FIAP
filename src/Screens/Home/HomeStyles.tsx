@@ -36,3 +36,19 @@ const Box2 = styled(Main)`
 export const CustomBox = ({ color }: CustomBoxType) => {
   return <Box2 color={color} />;
 };
+
+export const TableHeaderStyle = {
+  backgroundColor: "#eee",
+  color: Colors.PrimaryDark,
+  paddingRight: "25px"
+};
+
+export const TableRowStyle = {
+  color: Colors.PrimaryMedium,
+};
+
+export const TableSearchFieldStyle = {
+  color: Colors.PrimaryDark,
+  borderBottom: "2px solid #eee",
+  marginRight: "16px"
+};
