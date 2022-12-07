@@ -1,6 +1,12 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "theme_color": "#000000",
+  "background_color": "#000000",
+  "display": "fullscreen",
+  "scope": "./",
+  "start_url": "./",
+  "name": "Aplicativo de RH",
+  "short_name": "RH",
+  "description": "Aplicativo de RH",
   "icons": [
     {
       "src": "favicon.ico",
